@@ -59,3 +59,37 @@ for i in range(1, num + 1):
     fact *= i
 
 print("Factorial:", fact)
+
+
+n = int(input("Enter number of terms: "))
+
+a = 0
+b = 1
+
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+
+
+num = int(input("Enter a number: "))
+count = 0
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        count += 1
+
+if count == 2:
+    print("Prime number")
+else:
+    print("Not a prime number")
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+largest = max(a, b, c)
+
+print("Largest number is:", largest)
