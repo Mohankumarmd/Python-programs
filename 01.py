@@ -141,3 +141,6 @@ print("Addition:", a+b)
 print("Subtraction:", a-b)
 print("Multiplication:", a*b)
 print("Division:", a/b)
+
+for i in range(1, 11):
+    print(i)
