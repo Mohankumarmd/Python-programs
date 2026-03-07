@@ -132,3 +132,12 @@ for char in text:
         count += 1
 
 print("Number of vowels:", count)
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition:", a+b)
+print("Subtraction:", a-b)
+print("Multiplication:", a*b)
+print("Division:", a/b)
