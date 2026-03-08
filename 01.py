@@ -144,3 +144,13 @@ print("Division:", a/b)
 
 for i in range(1, 11):
     print(i)
+
+num = int(input("Enter number: "))
+count = len(str(num))
+print("Digits:", count)
+
+
+numbers = [1, 2, 3, 4, 5]
+
+print("Sum:", sum(numbers))
+
