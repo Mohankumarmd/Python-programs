@@ -211,3 +211,13 @@ if sum == temp:
     print("Armstrong")
 else:
     print("Not Armstrong")
+
+
+num = int(input("Enter number: "))
+count = 0
+
+while num > 0:
+    num //= 10
+    count += 1
+
+print("Digits =", count)
