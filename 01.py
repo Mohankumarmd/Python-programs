@@ -221,3 +221,13 @@ while num > 0:
     count += 1
 
 print("Digits =", count)
+
+
+num = int(input("Enter number: "))
+sum = 0
+
+while num > 0:
+    sum += num % 10
+    num //= 10
+
+print("Sum =", sum)
