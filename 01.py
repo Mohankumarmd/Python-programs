@@ -251,3 +251,8 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
+
+
+import random
+
+print(random.randint(1,100))
