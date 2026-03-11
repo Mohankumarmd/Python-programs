@@ -231,3 +231,13 @@ while num > 0:
     num //= 10
 
 print("Sum =", sum)
+
+
+import math
+
+a = int(input())
+b = int(input())
+
+lcm = (a*b)//math.gcd(a,b)
+
+print(lcm)
