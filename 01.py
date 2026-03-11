@@ -241,3 +241,13 @@ b = int(input())
 lcm = (a*b)//math.gcd(a,b)
 
 print(lcm)
+
+
+num = int(input())
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
