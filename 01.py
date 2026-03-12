@@ -256,3 +256,10 @@ else:
 import random
 
 print(random.randint(1,100))
+
+
+a = "listen"
+b = "silent"
+
+if sorted(a) == sorted(b):
+    print("Anagram")
