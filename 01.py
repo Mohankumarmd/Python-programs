@@ -263,3 +263,15 @@ b = "silent"
 
 if sorted(a) == sorted(b):
     print("Anagram")
+
+
+arr = [1,2,3,4,5]
+key = 3
+
+low, high = 0, len(arr)-1
+
+while low <= high:
+    mid = (low+high)//2
+    if arr[mid] == key:
+        print("Found")
+        break
