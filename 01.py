@@ -297,3 +297,16 @@ print(arr[-2])
 import random
 
 print(random.randint(1,100))
+
+n = int(input())
+s = str(n)
+power = len(s)
+
+sum = 0
+for i in s:
+    sum += int(i)**power
+
+if sum == n:
+    print("Armstrong")
+else:
+    print("Not Armstrong")
