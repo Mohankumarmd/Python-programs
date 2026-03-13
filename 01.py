@@ -286,3 +286,9 @@ for i in range(len(arr)):
     arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
 print(arr)
+
+
+arr = [10,20,4,45]
+arr.sort()
+print(arr[-2])
+
