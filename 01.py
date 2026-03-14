@@ -321,3 +321,11 @@ print(square(5))
 
 square = lambda x: x*x
 print(square(4))
+
+
+def fact(n):
+    if n==1:
+        return 1
+    return n*fact(n-1)
+
+print(fact(5))
