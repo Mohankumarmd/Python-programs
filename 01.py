@@ -310,3 +310,10 @@ if sum == n:
     print("Armstrong")
 else:
     print("Not Armstrong")
+
+
+
+def square(n):
+    return n*n
+
+print(square(5))
