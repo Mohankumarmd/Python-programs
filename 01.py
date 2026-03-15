@@ -329,3 +329,11 @@ def fact(n):
     return n*fact(n-1)
 
 print(fact(5))
+
+
+a = [1,2]
+b = [3,4]
+
+c = a + b
+
+print(c)
