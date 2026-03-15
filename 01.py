@@ -343,3 +343,10 @@ numbers = [1,2,3]
 t = tuple(numbers)
 
 print(t)
+
+
+t = (1,2,3)
+
+l = list(t)
+
+print(l)
