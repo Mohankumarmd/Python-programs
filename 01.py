@@ -337,3 +337,9 @@ b = [3,4]
 c = a + b
 
 print(c)
+
+numbers = [1,2,3]
+
+t = tuple(numbers)
+
+print(t)
