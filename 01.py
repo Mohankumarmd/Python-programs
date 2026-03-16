@@ -350,3 +350,11 @@ t = (1,2,3)
 l = list(t)
 
 print(l)
+
+
+class Person:
+    def greet(self):
+        print("Hello")
+
+p = Person()
+p.greet()
