@@ -358,3 +358,12 @@ class Person:
 
 p = Person()
 p.greet()
+
+
+class Person:
+    def __init__(self,name):
+        self.name = name
+
+p = Person("Mohan")
+
+print(p.name)
