@@ -367,3 +367,9 @@ class Person:
 p = Person("Mohan")
 
 print(p.name)
+
+
+try:
+    a = 10/0
+except:
+    print("Error occurred")
