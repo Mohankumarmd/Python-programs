@@ -395,3 +395,12 @@ while num > 0:
     count += 1
 
 print("Digits =", count)
+
+
+
+n = 5
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
