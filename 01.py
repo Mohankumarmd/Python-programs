@@ -424,3 +424,11 @@ for i in range(1, n + 1):
     for k in range(2 * i - 1):
         print("*", end="")
     print()
+
+
+a = 10
+b = a + 2.5;
+print(b)
+print(type(b))
+
+
