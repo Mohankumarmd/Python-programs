@@ -432,3 +432,8 @@ print(b)
 print(type(b))
 
 
+x = 10
+y = x + 3j;
+print(y)
+print(type(y))
+
