@@ -437,3 +437,7 @@ y = x + 3j;
 print(y)
 print(type(y))
 
+a = True
+b = a + 2
+print(b)
+print(type(b))
