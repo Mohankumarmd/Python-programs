@@ -441,3 +441,34 @@ a = True
 b = a + 2
 print(b)
 print(type(b))
+
+
+class Car:
+    def __init__(self):
+        self.name = ""
+        self.cost = 0.0
+        self.mileage = 0.0
+
+    # Methods
+    def start(self):
+        print("Car is starting:")
+
+    def accelerate(self):
+        print("Car is accelerating:")
+
+    def stop(self):
+        print("Car is stopping:")
+
+
+# Main program
+c = Car()
+
+# Taking input
+c.name = input("Enter a name of car: ")
+c.cost = float(input("Enter a cost: "))
+c.mileage = float(input("Enter a mileage: "))
+
+# Printing values
+print(c.name)
+print(c.cost)
+print(c.mileage)
