@@ -478,3 +478,10 @@ num = 10.75
 result = int(num)  # explicit casting
 
 print(result)
+
+num = 130
+
+# simulate Java byte casting
+result = (num + 128) % 256 - 128
+
+print(result)
