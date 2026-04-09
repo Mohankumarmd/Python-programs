@@ -472,3 +472,9 @@ c.mileage = float(input("Enter a mileage: "))
 print(c.name)
 print(c.cost)
 print(c.mileage)
+
+
+num = 10.75
+result = int(num)  # explicit casting
+
+print(result)
