@@ -490,3 +490,18 @@ num = 25.99
 result = int(num)  # explicit casting (similar to short in this case)
 
 print(result)
+
+
+class Employee:
+    def __init__(self):
+        self.eid = 0
+        self.ename = None
+        self.esalary = 0
+
+
+# main part
+e1 = Employee()
+
+print(e1.eid)
+print(e1.ename)
+print(e1.esalary)
