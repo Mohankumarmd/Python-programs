@@ -505,3 +505,16 @@ e1 = Employee()
 print(e1.eid)
 print(e1.ename)
 print(e1.esalary)
+
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# creating one object
+s1 = Student("Mohan", 20)
+
+# accessing object data
+print("Name:", s1.name)
+print("Age:", s1.age)
