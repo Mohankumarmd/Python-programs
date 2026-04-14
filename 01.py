@@ -518,3 +518,17 @@ s1 = Student("Mohan", 20)
 # accessing object data
 print("Name:", s1.name)
 print("Age:", s1.age)
+
+
+s1 = "MOHAN"
+s2 = "MAHESH"
+
+# Comparing strings
+if s1 == s2:
+    result = 0
+elif s1 > s2:
+    result = 1
+else:
+    result = -1
+
+print(result)
