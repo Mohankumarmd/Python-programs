@@ -542,3 +542,20 @@ for i in range(1, num + 1):
     fact *= i
 
 print("Factorial is:", fact)
+
+
+# Python version of long to int casting
+
+l = 9876543210  # Python does not need 'L' for long
+
+# Simulating Java int casting (32-bit overflow)
+int_val = l & 0xFFFFFFFF  # keep only lower 32 bits
+
+# Convert to signed 32-bit integer
+if int_val >= 2**31:
+    int_val -= 2**32
+
+print("Long value:", l)
+print("After casting to int (data loss):", int_val)
+
+print("-----------------------------")
