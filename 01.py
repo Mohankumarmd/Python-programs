@@ -559,3 +559,16 @@ print("Long value:", l)
 print("After casting to int (data loss):", int_val)
 
 print("-----------------------------")
+
+
+
+
+# Input string
+text = "JAVA PYTHON AI ML"
+
+# Splitting the string into tokens (like StringTokenizer)
+tokens = text.split()
+
+# Loop through tokens and print
+for token in tokens:
+    print(token)
