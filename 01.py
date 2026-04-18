@@ -572,3 +572,21 @@ tokens = text.split()
 # Loop through tokens and print
 for token in tokens:
     print(token)
+
+
+class MathOperations:
+
+   
+    def add(self, *args):
+        if len(args) == 2:
+            return args[0] + args[1]  
+        elif len(args) == 3:
+            return args[0] + args[1] + args[2]
+        else:
+            return "Invalid number of arguments"
+
+obj = MathOperations()
+
+print(obj.add(10, 20))        
+print(obj.add(10, 20, 30))    
+print(obj.add(5.5, 2.5))      
