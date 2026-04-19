@@ -589,4 +589,27 @@ obj = MathOperations()
 
 print(obj.add(10, 20))        
 print(obj.add(10, 20, 30))    
-print(obj.add(5.5, 2.5))      
+print(obj.add(5.5, 2.5)) 
+
+
+class Calculator:
+
+    def add(self, a=None, b=None, c=None):
+        if a is not None and b is not None and c is not None:
+            return a + b + c   # 3 arguments
+        elif a is not None and b is not None:
+            return a + b       # 2 arguments
+        elif a is not None:
+            return a           # 1 argument
+        else:
+            return 0           # no arguments
+
+
+
+obj = Calculator()
+
+
+print(obj.add(10, 20))        
+print(obj.add(10, 20, 30))    
+print(obj.add(10))            
+print(obj.add())              
