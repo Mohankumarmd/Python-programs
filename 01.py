@@ -613,3 +613,22 @@ print(obj.add(10, 20))
 print(obj.add(10, 20, 30))    
 print(obj.add(10))            
 print(obj.add())              
+
+
+
+num = 10.75
+result = int(num)  # explicit casting
+
+print(result)
+
+num = 130
+
+# simulate Java byte casting
+result = (num + 128) % 256 - 128
+
+print(result)
+
+num = 25.99
+result = int(num)  # explicit casting (similar to short in this case)
+
+print(result)
