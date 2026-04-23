@@ -632,3 +632,25 @@ num = 25.99
 result = int(num)  # explicit casting (similar to short in this case)
 
 print(result)
+
+
+# Define a class
+class Animal:
+    
+    # Constructor (initializes object data)
+    def __init__(self, name, species):
+        self.name = name        # object variable
+        self.species = species  # object variable
+
+    # Method (function inside class)
+    def display(self):
+        print("Animal Name:", self.name)
+        print("Species:", self.species)
+
+
+# Create an object
+a1 = Animal("Leo", "Lion")
+
+# Access object data using method
+a1.display()
+
