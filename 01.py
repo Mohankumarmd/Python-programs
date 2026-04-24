@@ -654,3 +654,39 @@ a1 = Animal("Leo", "Lion")
 # Access object data using method
 a1.display()
 
+
+
+
+# Encapsulation Example
+class Student:
+
+    # Constructor (initialize private variables)
+    def __init__(self):
+        self.__name = None   # private variable
+        self.__age = None    # private variable
+
+    # Setter methods
+    def set_name(self, name):
+        self.__name = name
+
+    def set_age(self, age):
+        self.__age = age
+
+    # Getter methods
+    def get_name(self):
+        return self.__name
+
+    def get_age(self):
+        return self.__age
+
+
+# Main program
+s1 = Student()
+
+# Set values using setter methods
+s1.set_name("Mohan")
+s1.set_age(20)
+
+# Get values using getter methods
+print("Name:", s1.get_name())
+print("Age:", s1.get_age())
