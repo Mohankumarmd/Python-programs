@@ -690,3 +690,14 @@ s1.set_age(20)
 # Get values using getter methods
 print("Name:", s1.get_name())
 print("Age:", s1.get_age())
+
+
+
+name = "mohan kumar"
+
+
+upper_name = name.upper()
+
+# Output
+print("Original:", name)
+print("Uppercase:", upper_name)
