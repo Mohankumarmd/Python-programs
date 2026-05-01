@@ -740,3 +740,8 @@ print("Remaining Balance:", acc.get_balance())
 class Car:
     def __init__(self):
         self.name = None
+
+         def getName(self):
+        return self.name
+    
+    
