@@ -744,4 +744,8 @@ class Car:
          def getName(self):
         return self.name
     
-    
+    class Demo:
+    @staticmethod
+    def main():
+        c = Car()
+        print(c.getName())
