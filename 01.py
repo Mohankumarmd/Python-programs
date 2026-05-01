@@ -741,7 +741,7 @@ class Car:
     def __init__(self):
         self.name = None
 
-         def getName(self):
+    def getName(self):
         return self.name
     
     class Demo:
@@ -749,3 +749,5 @@ class Car:
     def main():
         c = Car()
         print(c.getName())
+
+    Demo.main()
