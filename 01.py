@@ -701,3 +701,36 @@ upper_name = name.upper()
 # Output
 print("Original:", name)
 print("Uppercase:", upper_name)
+
+
+
+class BankAccount:
+    
+    # Constructor (initialize balance)
+    def __init__(self):
+        self.__balance = 0   # private variable
+
+    # Deposit method
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance = self.__balance + amount
+
+    # Withdraw method
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self.__balance:
+            self.__balance = self.__balance - amount
+        else:
+            print("Invalid amount!")
+
+    # Getter method
+    def get_balance(self):
+        return self.__balance
+
+
+# Main program
+acc = BankAccount()
+
+acc.deposit(5000)
+acc.withdraw(2000)
+
+print("Remaining Balance:", acc.get_balance())
