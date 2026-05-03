@@ -751,3 +751,7 @@ class Car:
         print(c.getName())
 
     Demo.main()
+
+
+str1 = input()
+str2 = input()
