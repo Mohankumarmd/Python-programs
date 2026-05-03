@@ -755,3 +755,5 @@ class Car:
 
 str1 = input()
 str2 = input()
+
+result = (str1 == str2)
