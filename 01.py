@@ -771,3 +771,6 @@ for i in range(n):
 
 for i in range(n // 2):
     print(arr[i], end=" ")
+
+for i in range(1, 11):
+    
