@@ -758,3 +758,16 @@ str2 = input()
 
 result = (str1 == str2)
 print(result)
+
+
+# Read input
+n = int(input())
+arr = []
+
+# Store elements in list
+for i in range(n):
+    arr.append(int(input()))
+
+# Print first half of the list
+for i in range(n // 2):
+    print(arr[i], end=" ")
