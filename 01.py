@@ -781,3 +781,6 @@ print("Java")
 def main():
     print("Python")
 
+number = 10
+name = "Mohan"
+
