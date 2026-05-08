@@ -794,3 +794,5 @@ class Animal:
     def bark(self):
         print("Dog barks")
         d = Dog()
+        d.sound()
+        d.bark()
