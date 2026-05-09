@@ -796,3 +796,14 @@ class Animal:
         d = Dog()
         d.sound()
         d.bark()
+
+
+class Employee:
+
+    # Private variable
+    def __init__(self):
+        self.__name = ""
+
+    # Setter method
+    def setName(self, n):
+        self.__name = n
