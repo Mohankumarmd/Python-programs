@@ -810,3 +810,9 @@ class Employee:
 
         def getName(self):
         return self.__name
+    
+e = Employee()
+
+e.setName("Mohan")
+
+print(e.getName())
