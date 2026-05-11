@@ -828,3 +828,21 @@ for i in range(1, rows + 1):
     for j in range(i):
         print("*", end=" ")
     print()
+
+
+
+# Polymorphism Example in Python
+
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+# Parent reference, child object
+a = Dog()
+
+# Calls Dog class method
+a.sound()
