@@ -853,3 +853,8 @@ for i in range(1, 11);
 for i in range(1, 7):
     print("Number:", i)
     print("Loop completed")
+
+
+number = 7
+
+if number % 2 == 0:
