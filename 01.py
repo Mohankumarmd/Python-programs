@@ -861,3 +861,10 @@ if number % 2 == 0:
         print(number, "is Even")
 else:
         print(number, "is Odd")
+
+
+
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+        class Dog(Animal):
