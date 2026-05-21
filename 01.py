@@ -887,7 +887,7 @@ for i in range(n):
 num = int(input("Enter a number: "))
 fact = 1
 
-for i in range(1, num + 1):
-    fact *= i
+# for i in range(1, num + 1):
+#     fact *= i
 
-print("Factorial is:", fact)
+# print("Factorial is:", fact)
