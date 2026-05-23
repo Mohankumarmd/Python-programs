@@ -899,3 +899,13 @@ for i in range(1, n + 1):
     for j in range(i):
         print("*", end=" ")
     print()
+
+
+
+obj = Calculator()
+
+
+# print(obj.add(10, 20))        
+# print(obj.add(10, 20, 30))    
+# print(obj.add(10))            
+# print(obj.add())
