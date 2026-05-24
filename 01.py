@@ -909,3 +909,13 @@ print(obj.add(10, 20))
 print(obj.add(10, 20, 30))    
 print(obj.add(10))            
 print(obj.add())
+
+
+num = int(input("Enter number: "))
+# count = 0
+
+# while num > 0:
+#     num //= 10
+#     count += 1
+
+# print("Digits =", count)
